@@ -1,0 +1,10 @@
+autodetach on
+startup_message off
+defutf8 on
+altscreen on
+caption always "%{=r gk} %-w%{=b kg}%50>%n%f* %t%{-}%+Lw%<%{- Wk} %=%{B}%Y-%m-%d %0c:%s"
+defscrollback 10000
+bind \040 focus down
+bind = resize = 
+bind + resize +5
+bind - resize -5 
